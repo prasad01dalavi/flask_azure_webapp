@@ -10,4 +10,4 @@ def index():      # since this is a homepage, we named it as index
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')
